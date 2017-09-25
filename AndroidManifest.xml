@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.greenledge.quran"
+    android:versionCode="1"
+    android:versionName="1.1b" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  	<uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    
+    <application android:name="com.greenledge.common.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ViewPagerFragmentActivity"
+            android:label="@string/app_name" android:launchMode="singleTop" 
+            android:configChanges="keyboardHidden|orientation|locale" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".WebViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TabListViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuranActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Preferences"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MyPdfViewerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <service android:name="com.greenledge.common.LocationService" />
+        <service android:name="com.greenledge.common.RSSService" />
+        <receiver android:name="com.greenledge.common.NotificationReceiver" />
+        <service android:name="com.greenledge.common.MediaService" />
+        <receiver android:name=".PrayerWidget" android:label="@string/adhan_timetable">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		    </intent-filter>
+	    	<meta-data android:name="android.appwidget.provider" android:resource="@xml/prayerwidgetprovider" />
+		</receiver>
+    </application>
+
+</manifest>
