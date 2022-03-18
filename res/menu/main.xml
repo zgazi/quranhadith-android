@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.greenledge.quran.ViewPagerFragmentActivity" >
+    
+    <item
+        android:id="@+id/menu_list"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:showAsAction="ifRoom"
+        android:title="@string/list"/>
+    
+    <item 
+        android:id="@+id/menu_speaker"
+        android:orderInCategory="100"
+        android:icon="@drawable/speaker_off"
+        android:showAsAction="ifRoom"
+        android:title="@string/sound"/>
+    <item 
+        android:id="@+id/menu_play"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_media_play"
+        android:showAsAction="ifRoom"
+        android:title="@string/play"
+        android:visible="false" />
+    
+    <item 
+        android:id="@+id/menu_view"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_view"
+        android:showAsAction="ifRoom"
+        android:title="@string/view"
+        android:visible="false" />
+    
+    <item 
+        android:id="@+id/menu_preferences"
+        android:title="@string/preferences" 		
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"	
+        android:icon="@android:drawable/ic_menu_preferences" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom"
+        android:title="@string/search"/>
+    
+    <item
+        android:id="@+id/menu_bookmarks"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:showAsAction="ifRoom"
+        android:title="@string/bookmarks"/>
+        
+    <item
+        android:id="@+id/menu_help"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/help"/>
+   
+    <item android:title="@string/share" 
+        android:orderInCategory="100"	
+        android:id="@+id/menu_share" 
+        android:showAsAction="ifRoom"	
+        android:icon="@android:drawable/ic_menu_share" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/about"/>
+    
+    <item
+        android:id="@+id/menu_close"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/close"/>
+
+</menu>

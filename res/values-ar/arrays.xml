@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<!-- List for Display Mode -->
+	<string-array name="displayMode">
+		<item>العربية فقط</item>
+		<item>العربية مع حرفي</item>
+		<item>العربية مع الترجمة</item>
+		<item>الترجمة مع الحرفي</item>
+	</string-array>
+	<string-array name="displayModeValues">
+		<item>arabic</item>
+		<item>phonetic</item>
+		<item>trans</item>
+		<item>phonetic_trans</item>
+	</string-array>
+	
+	<!-- Language list for surah titles -->
+	<string-array name="langList">
+		<item>العربية</item>
+		<item>حرفي</item>
+		<item>الانجليزية</item>
+	</string-array>
+	<string-array name="langListValues">
+		<item>Arabic</item>
+		<item>Phonetic</item>
+		<item>English</item>
+	</string-array>
+
+    <!-- Arabic Font Type -->
+	<string-array name="fontTypesArabic">
+		<item>خط المدينة</item>
+		<item>خط نور حراء</item>
+		<item>رسمي</item>
+		<item>الناشر</item>
+		<item>قرطبة</item>
+		<item>إشبيلية</item>
+		<item>طهران</item>
+	</string-array>
+	<string-array name="fontTypesValuesArabic">
+		<item>medina.ttf</item>
+		<item>noorheira.ttf</item>
+		<item>formal.ttf</item>
+		<item>publisher.ttf</item>
+		<item>cordoba.ttf</item>
+		<item>sevilla.ttf</item>
+		<item>tehran.ttf</item>
+	</string-array>
+	
+	<!-- Latin Font Type -->
+	<string-array name="fontTypesLatin">
+		<item>Simple</item>
+		<item>Timeless</item>
+		<item>Portal</item>
+	</string-array>
+	<string-array name="fontTypesValuesLatin">
+		<item>english.ttf</item>
+		<item>timeless.ttf</item>
+		<item>portal.ttf</item>
+	</string-array>
+
+	<!-- Tashkil colors -->
+	<string-array name="prefVowelizationColorTypeKeys">
+		<item>أزرق</item>
+		<item>أخضر</item>
+		<item>أحمر</item>
+	</string-array>
+	<string-array name="prefVowelizationColorTypeValues">
+		<item>blue</item>
+		<item>green</item>
+		<item>red</item>
+	</string-array>
+	
+    <string-array name="reciterNames">
+		<item>عبد الباسط - مرتّل</item>
+		<item>عبد الباسط - مجوّد</item>
+		<item>عبد الله بصفر</item>
+		<item>عبد الرحمن السديس</item>
+		<item>أبو بكر الشاطري</item>
+		<item>علي الحذيفي</item>
+		<item>أحمد العجمي</item>
+		<item>مشاري العفاسي</item>
+		<item>إبراهيم أخضر</item>
+		<item>هاني الرفاعي</item>
+		<item>محمد الحصري - مرتل</item>
+		<item>محمد الحصري - مجوّد</item>
+		<item>ماهر المعيقلي</item>
+		<item>محمد المنشاوي - مرتّل</item>
+		<item>محمد المنشاوي - مجوّد</item>
+		<item>محمد الطبلاوي</item>
+		<item>محمود جبريل</item>
+		<item>محمد أيوب</item>
+		<item>سعد الغامدي</item>
+		<item>سعود الشريم</item>
+		<item>شهريار برهيزكار</item>
+		<item>صلاح بو خاطر</item>
+	</string-array>
+	
+	<color name="bgColor">#99d1e0ff</color>
+	<color name="ayah_selected">#0067a9</color>
+	<color name="textColor">#0c2941</color>
+	<color name="titleTextColor">#ffffff</color>
+	
+</resources>

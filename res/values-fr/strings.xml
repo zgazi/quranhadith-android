@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Islamic Tools</string>
+    <string name="loading">[chargement...]</string>
+    <string name="save">sauvegarder</string>
+    
+    <string name="title">Islamic Tools par Selim Amroune</string>    
+    <string name="location">Lieu :</string>
+    <string name="fadjr">Fadjr</string>
+    <string name="shurooq">Shurooq</string>
+    <string name="zuhr">Zuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="qibla">Qibla</string>
+
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="gmt">GMT :</string>
+    <string name="dst">DST :</string>
+    <string name="calculation">Méthode :</string>
+    <string name="toggle">DST</string>
+    <string name="hadiths">Horaires/Hadiths</string>
+
+    <string name="parametre">Paramètrage</string>
+    <string name="position">Position actuelle</string>
+	<string name="set_pos_gps">Acquisition GPS</string>
+	<string name="gps_HS">GPS désactivé</string>
+    		
+    <string name="notification">Notification</string>
+   	<string name="notif_titre">Paramètrage des alertes</string>
+   	<string name="alert">Rappel avant prière</string>
+	    	
+    <string name="set_calcul">calcul</string>
+   	<string name="set_calcul_titre">Paramètrage du calcul</string>
+   	<string name="set_cal_min">min.</string>
+    <string name="theme">thème</string>
+    <string name="set_reciter">réciteur coranique</string>
+	<string name="set_rec_titre">Réciteur Coranique</string>
+	<string name="set_rec_folder">Répertoire :</string>
+    <string name="about">A propos</string>
+    
+    <string name="not_reset">Réinitialisation des paramètres !</string>
+	<string name="init_DB">Initilialisation de la Base de Donnée</string>
+
+    <string name="file_not_found">Fichier introuvable !</string>
+
+
+    <string name="continent">Choix du Continent</string>
+    <string name="country">Choix du Pays</string>
+    <string name="city">Choix de la Ville</string>
+    
+    <string name="notifPrayer">C\'est la prière! [#]</string>
+    <string name="day_01">Nouvel an</string>
+    <string name="dayAR_06">Nuit du destin</string>
+	<string name="no_connexion">Pas de connexion internet !\nVérifiez vos paramétrages.</string>    
+    
+    <string name="egypt_survey">Le Cadastre général d\'Egypte</string>
+    <string name="karachi_shaf">Shaf`i - L\'Université des Sciences Islamiques de Karachi</string>
+    <string name="karachi_hanaf">Hanafi - L\'Université des Sciences Islamiques de Karachi</string>
+    <string name="north_america">La Fédération Islamique de l\'Amérique du nord</string>
+    <string name="muslim_league">La Ligue du Monde Islamique</string>
+    <string name="umm_alqurra">Umm Ul Qurâ,  Arabie Saoudite</string>
+    <string name="fixed_ishaa">Intervalle fixe pour Ishaa (toujours à 90)</string>
+</resources>

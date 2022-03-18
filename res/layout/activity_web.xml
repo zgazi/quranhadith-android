@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WebViewActivity" >
+
+    <LinearLayout android:id="@+id/layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:padding="1sp">
+    
+      <WebView android:id="@+id/webview"
+	   android:paddingLeft="2dip"
+	   android:paddingRight="2dip"
+           android:layout_width="match_parent"
+           android:layout_height="0dip"
+           android:layout_weight="1" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent" >
+
+    	<Button
+                android:id="@+id/back_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:icon="@android:drawable/ic_media_previous" />
+        <Button
+                android:id="@+id/refresh_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:icon="@android:drawable/ic_media_rew" />
+        <Button
+                android:id="@+id/forward_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:icon="@android:drawable/ic_media_play" />
+    </LinearLayout>
+</RelativeLayout>

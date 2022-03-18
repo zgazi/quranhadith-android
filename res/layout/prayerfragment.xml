@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/Menu">
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" 
+android:gravity="center" android:id="@+id/img_top" >
+<ImageView android:layout_width="wrap_content" android:layout_height="40dip"
+android:src="@drawable/bismillah"  android:gravity="top|center" />
+ </LinearLayout>
+
+<LinearLayout style="@style/CadreLayout" android:id = "@+id/cadre_Layout" android:gravity="top|center" 
+android:layout_below="@id/img_top">
+
+<TableLayout style="@style/PrayerTable" android:id = "@+id/pt_table"  >
+  	<TableRow>
+	  <TextView  style="@style/TablePrayer.Name" android:text="@string/qibla" />
+	  <TextView  style="@style/TablePrayer.Time" android:id = "@+id/pt_qibla" />
+	</TableRow>
+ <TableRow android:layout_height="50dp">
+     <TextView style="@style/TablePrayer.Name" android:id = "@+id/pt_location" />
+     <TextView  style="@style/TablePrayer.Time" android:text="@string/kilometer" />
+ </TableRow>
+
+<TableRow>
+  <TextView style="@style/TablePrayer.Name"  android:text = "@string/fadjr" />
+  <TextView style="@style/TablePrayer.Time" android:id = "@+id/pt_fadjr" />
+ </TableRow>
+ <TableRow>
+  <TextView style="@style/TablePrayer.Name" android:text = "@string/shurooq" />
+  <TextView style="@style/TablePrayer.Time" android:id = "@+id/pt_shurooq" />
+  </TableRow> 
+ <TableRow>
+  <TextView style="@style/TablePrayer.Name" android:text = "@string/zuhr" />
+  <TextView style="@style/TablePrayer.Time" android:id = "@+id/pt_zuhr" />
+  </TableRow> 
+ <TableRow>
+  <TextView style="@style/TablePrayer.Name" android:text = "@string/asr" />
+  <TextView style="@style/TablePrayer.Time" android:id = "@+id/pt_asr" />
+  </TableRow> 
+ <TableRow>
+  <TextView style="@style/TablePrayer.Name" android:text = "@string/maghrib" />
+  <TextView style="@style/TablePrayer.Time" android:id = "@+id/pt_maghrib" />
+  </TableRow> 
+ <TableRow>
+  <TextView style="@style/TablePrayer.Name" android:text = "@string/isha"/>
+  <TextView style="@style/TablePrayer.Time" android:id = "@+id/pt_isha" />
+  </TableRow>
+  </TableLayout>
+<LinearLayout style="@style/CadreCompassLayout" >
+<com.greenledge.quran.CompassView android:layout_width="200dip"
+    android:layout_height="200dip" android:id="@+id/bCompassView" />  
+<!--     
+    <ImageView android:src="@drawable/compass_base"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:id="@+id/bCompass" />   -->
+
+</LinearLayout>	 
+</LinearLayout>  
+<!-- <ScrollView 
+	android:layout_width="fill_parent" 
+	android:layout_height="80dip"
+	android:layout_gravity="center_vertical"
+> -->
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_marginTop="8dip"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+ android:layout_below="@id/cadre_Layout"
+ android:id="@+id/alertLayout"
+ android:layout_marginRight="2dip" >
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="bottom|center" 
+    android:layout_alignParentBottom="true" 
+    android:layout_marginBottom="16dip"
+     >
+    
+    <ImageView android:src="@drawable/quran"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:id="@+id/bQuran"
+    />
+    <ImageView android:src="@drawable/names"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:id="@+id/bName"
+    />
+    <ImageView android:src="@drawable/hadith"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:id="@+id/bHadith"
+    />
+    <ImageView android:src="@drawable/sermon"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:id="@+id/bBook"
+    /> 
+    <ImageView android:src="@drawable/calendar"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:id="@+id/bCalendar"
+    /> 
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="bottom|center"
+    android:id="@+id/copyright_txt"
+    android:layout_alignParentBottom="true" >
+	<TextView 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:gravity="bottom|left"
+    android:text="greenledge.com"
+    android:textSize="12dip"
+    android:textStyle="bold|italic"   /> 
+</LinearLayout>
+</RelativeLayout>

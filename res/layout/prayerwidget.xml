@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	style="@style/Widget"
+	android:id="@+id/prayerwidget" android:focusable="true"
+	android:clickable="true">
+
+<LinearLayout style="@style/PrayerLayout.Name" >
+ 		<TextView style="@style/Prayer.Name" android:text="@string/fadjr" />
+ 		<TextView style="@style/Prayer.Name"  android:text="@string/shurooq" />
+		<TextView style="@style/Prayer.Name"  android:text="@string/zuhr" />
+		<TextView style="@style/Prayer.Name" android:text="@string/asr" />
+		<TextView style="@style/Prayer.Name" android:text="@string/maghrib"/>
+		<TextView style="@style/Prayer.Name" android:text="@string/isha"/>
+</LinearLayout>
+
+<LinearLayout style="@style/PrayerLayout.Time">
+	<TextView  style="@style/Prayer.Time" android:id="@+id/wi_fadjr"	/>
+	<TextView  style="@style/Prayer.Time" android:id="@+id/wi_shurooq" />
+	<TextView  style="@style/Prayer.Time" android:id="@+id/wi_zuhr"	/>
+	<TextView  style="@style/Prayer.Time" android:id="@+id/wi_asr" />
+	<TextView  style="@style/Prayer.Time" android:id="@+id/wi_maghrib" />
+	<TextView  style="@style/Prayer.Time" android:id="@+id/wi_isha" /> 
+</LinearLayout>
+<LinearLayout style="@style/PrayerLayout.Hadith">
+	<TextView style="@style/Hadith.Text" android:id="@+id/wi_text" />
+</LinearLayout>
+
+<TextView style="@style/Hadith.Source" android:id="@+id/wi_source" />
+
+</LinearLayout>

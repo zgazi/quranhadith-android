@@ -1,0 +1,246 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ImageTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">#99000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    
+    <style name="ButtonContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:background">#99000000</item>
+        <item name="android:gravity">center</item>        
+    </style>
+
+    <style name="scrollerThumb">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_track</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_thumb</item>
+    </style>
+<style name="Widget">
+	<item name="android:orientation">vertical</item>
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">fill_parent</item>
+</style>
+
+<!-- Layout  -->
+
+<style name="PrayerLayout">
+	<item name="android:orientation">horizontal</item>
+	<item name="android:layout_width">wrap_content</item>
+</style>	
+<style name="PrayerLayout.Name">
+    <item name="android:layout_height">16dp</item>
+    <item name="android:layout_width">fill_parent</item>
+	<item name="android:gravity">center_vertical</item>
+</style>
+<style name="PrayerLayout.Time">
+    <item name="android:layout_height">20dp</item>
+    <item name="android:layout_width">fill_parent</item>
+	<item name="android:gravity">center_vertical</item>
+</style>
+<style name="PrayerLayout.Hadith">
+    <item name="android:paddingTop">2dp</item>
+	<item name="android:layout_height">50dp</item>
+	<item name="android:gravity">center_vertical</item>
+</style>
+<!-- Prayer Texte Name/Time -->
+<style name="Prayer">
+	<item name="android:layout_width">48dp</item> 
+	<item name="android:gravity">center</item>
+	<item name="android:layout_height">wrap_content</item>
+</style>
+<style name="Prayer.Name">
+	<item name="android:textSize">12dp</item>
+	<item name="android:layout_width">44dp</item>
+	<item name="android:textColor">#A4C739</item> 
+</style>		
+<style name="Prayer.Time">
+	<item name="android:textSize">16dp</item>
+	<item name="android:layout_width">44dp</item>
+	<item name="android:text">00:00</item>
+</style>
+<style name="Hadith">
+	<item name="android:layout_width">fill_parent</item> 
+	<item name="android:text">@string/loading</item>
+	<item name="android:layout_height">wrap_content</item>
+</style>
+<style name="Hadith.Text">
+	<item name="android:gravity">center_vertical</item>
+	<item name="android:textSize">16dp</item>
+	<item name="android:textColor">#ffd700</item>
+</style>
+
+<style name="Hadith.Source">
+	<item name="android:gravity">right</item>
+	<item name="android:textStyle">italic</item>
+	<item name="android:paddingRight">0dp</item>
+	<item name="android:textColor">#A4C739</item>
+	<item name="android:textSize">12dp</item>
+</style>
+
+<style name="Menu">
+	<item name="android:orientation">vertical</item>
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">fill_parent</item>
+	<item name="android:gravity">top|center</item>
+</style>
+<style name="Titre">
+	 <item name="android:layout_width">fill_parent</item>   
+	 <item name="android:gravity">center</item>
+	 <item name="android:layout_height">36dip</item> 
+	 <item name="android:textColor">#C00000</item>
+	 <item name="android:textSize">16dip</item>
+</style>
+<style name="CadreLayout">
+	<item name="android:orientation">horizontal</item>
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+</style>
+<style name="CadreCompassLayout">
+	<item name="android:orientation">vertical</item>
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:gravity">center</item>
+	<item name="android:paddingLeft">8dip</item>
+</style>
+<style name="CadreCenterLayout">
+	<item name="android:orientation">horizontal</item>
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:gravity">center</item>
+	<item name="android:textColor">#C00000</item>
+</style>
+<style name="CadreHadithLayout">
+	<item name="android:orientation">horizontal</item>
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">fill_parent</item>
+	<!-- <item name="android:background">@drawable/sam_hadith</item> -->
+</style>
+
+<style name="PrayerTable">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingTop">4dip</item>
+</style>
+<style name="TablePrayer">
+</style>
+<style name="TablePrayer.Name">
+	<item name="android:layout_width">wrap_content</item>   
+	<item name="android:gravity">right</item>
+	<item name="android:layout_height">wrap_content</item>   
+</style>
+<style name="TablePrayer.Time">
+	<item name="android:layout_width">wrap_content</item>   
+	<item name="android:gravity">left</item>
+	<item name="android:layout_height">wrap_content</item>   
+	<item name="android:paddingLeft">8px</item> 
+	<item name="android:text">00:00</item> 
+</style>
+
+<style name="Qibla">
+</style>
+<style name="Qibla.Name">
+	<item name="android:layout_width">wrap_content</item>   
+	<item name="android:gravity">right</item>
+	<item name="android:layout_height">wrap_content</item>   
+	<item name="android:textColor">#C00000</item>
+</style>
+<style name="Qibla.Position">
+	<item name="android:layout_width">wrap_content</item>   
+	<item name="android:gravity">left</item>
+	<item name="android:layout_height">wrap_content</item>   
+	<item name="android:textColor">#C00000</item>
+</style>
+ 
+<style name="CalData">
+	<item name="android:layout_width">wrap_content</item>   
+	<item name="android:layout_height">wrap_content</item>   
+	<item name="android:textColor">#C00000</item>
+	<item name="android:gravity">center</item>
+	<item name="android:layout_weight">1.0</item>
+	<item name="android:text">00:00</item>
+	<item name="android:textSize">12dip</item>	
+</style> 
+<style name="SettingNotif">
+	<item name="android:layout_width">90dip</item> 
+	<item name="android:gravity">center</item>
+	<item name="android:layout_height">32dip</item>
+</style>
+<style name="SettingNotif.PrayerName">
+	<item name="android:textSize">14sp</item> 
+</style>	
+<style name="SettingNotif.Titre">
+	<item name="android:textSize">16sp</item> 
+</style>	
+
+<style name="SettingCal">
+	<item name="android:layout_width">90dip</item> 
+	<item name="android:gravity">center</item>
+	<item name="android:layout_height">32dip</item>
+</style>
+<style name="SettingCal.PrayerName">
+	<item name="android:textSize">14sp</item> 
+</style>	
+<style name="SettingCal.Min">
+	<item name="android:textSize">14sp</item> 
+	<item name="android:gravity">center_vertical|left</item>
+</style>	
+<style name="SettingCal.Titre">
+	<item name="android:textSize">16sp</item> 
+</style>	
+
+<style name="DateTable">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:gravity">center</item>    
+</style>
+
+<style name="DateTable.Name">
+	<item name="android:textSize">16sp</item> 
+	<item name="android:textStyle">bold</item> 
+	<item name="android:textColor">#FF542800</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>    
+    <item name="android:paddingRight">12dip</item>        
+    <item name="android:gravity">right</item>    
+</style>
+
+<style name="DateTable.Day">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:text">00/00/0000</item>    
+	<item name="android:textColor">#FFD86804</item>
+</style>
+
+</resources>
+

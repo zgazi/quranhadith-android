@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:quran="http://quran.greenledge.com" >
+
+    <PreferenceCategory
+        android:key="prefQuranSettings"
+        android:title="@string/settings"
+        android:selectable="false" >
+        
+       <ListPreference
+        android:key="prefDisplayMode"
+        android:title="@string/display"
+        android:summary="@string/settings"
+        android:entries="@array/displayMode"
+        android:entryValues="@array/displayModeValues"
+        android:defaultValue="0"
+        android:dialogTitle="@string/display"
+        android:persistent="true"/>
+          
+      <EditTextPreference
+          android:title="@string/server"
+        android:summary="@android:string/copyUrl"
+        android:defaultValue="http://tafhimulquran.com/"
+        android:key="prefFeedUrl"/>
+      
+      <EditTextPreference
+        android:title="@string/directory"
+        android:defaultValue=""
+        android:key="prefFeedDir"/>
+      
+	  <com.greenledge.common.LanguagePreference
+        android:key="prefLanguage"
+        android:title="@string/language"
+        android:defaultValue="bn"
+        android:dialogTitle="@android:string/dialog_alert_title"
+        android:persistent="true"/>
+	  
+      <com.greenledge.common.LocationPreference
+        android:key="prefLocation"
+        android:title="@string/location"
+        android:defaultValue="US"
+        android:dialogTitle="@android:string/dialog_alert_title"
+        android:persistent="true"/>
+      
+        <EditTextPreference
+        android:title="@string/latitude"
+        android:defaultValue=""
+        android:key="prefLatitude"/>
+        
+        <EditTextPreference
+        android:title="@string/longitude"
+        android:defaultValue=""
+        android:key="prefLongitude"/>
+             
+        <EditTextPreference
+        android:title="@string/gmt"
+        android:defaultValue=""
+        android:key="prefGMT"/>
+                
+        <EditTextPreference 
+        android:defaultValue=""
+        android:key="prefDST"
+        android:title="@string/daylight"/>
+        
+     </PreferenceCategory>
+    <PreferenceCategory  android:key="prefAdvanced"
+        android:title="@string/preferences"
+        android:selectable="false">       
+        <Preference
+            android:title="@string/about">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://greenledge.com/" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

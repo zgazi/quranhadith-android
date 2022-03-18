@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quran</string>
+    <string name="about">About</string>
+    <string name="alert">Alert</string>
+    <string name="Alert_before">Alert before</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="close">Close</string>
+    <string name="confirm">Confirm</string>
+    <string name="daylight">Daylight</string>
+    <string name="delete">Delete</string>
+    <string name="directory">Directory</string>
+    <string name="display">Display</string>
+    <string name="donate">Donate</string>
+    <string name="edit">Edit</string>
+    <string name="exit">Exit</string>
+    <string name="gmt">GMT</string>
+    <string name="help">Help</string>
+    <string name="info">Info</string>
+    <string name="invalid">Invalid</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="language">Language</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="Loading">Loading</string>
+    <string name="list">List</string>
+    <string name="location">Location</string>
+    <string name="method">Method</string>
+    <string name="mile">Mile</string>
+    <string name="minute">Minute</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="play">Play</string>
+    <string name="read">Read</string>
+	<string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="server">Server</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+    <string name="sound">Sound</string>
+    <string name="preferences">Preferences</string>
+    <string name="today">Today</string>
+    <string name="view">View</string>
+    <string name="category">Category</string>
+    <string name="summary">Summary</string>
+    <string name="select">Select</string>
+    
+    <string name="fadjr">Fadjr</string>
+    <string name="shurooq">Shurooq</string>
+    <string name="zuhr">Zuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="qibla">Qibla</string>
+
+	<string name="egypt_survey">Egyptian General Authority of Survey</string>
+    <string name="karachi_shaf">Shaf`i - Karachi University of Islamic Sciences</string>
+    <string name="karachi_hanaf">Hanafi - Karachi University of Islamic Sciences</string>
+    <string name="north_america">Islamic Society of North America</string>
+    <string name="muslim_league">Muslim World League</string>
+    <string name="umm_alqurra">Umm Al-Qurra, Saudi Arabia</string>
+    <string name="fixed_ishaa">Fixed Ishaa Interval (always 90)</string>
+    
+    <string name="month0">Muharram</string>
+    <string name="month1">Safar</string>
+    <string name="month2">Rabi` al-awwal</string>
+    <string name="month3">Rabi` al-thani</string>
+    <string name="month4">Jumada al-awwal</string>
+    <string name="month5">Jumada al-thani</string>
+    <string name="month6">Rajab</string>
+    <string name="month7">Sha`aban</string>
+    <string name="month8">Ramadan</string>
+    <string name="month9">Shawwal</string>
+    <string name="month10">Dhu al-Qi`dah</string>
+    <string name="month11">Dhu al-Hijjah</string>
+    
+    <string name="transliteration">Transliteration</string>
+    <string name="translation">Translation</string>
+    <string name="tafsir">Tafsir</string>
+    <string name="comment">Comment</string>
+</resources>
